@@ -25,3 +25,30 @@
 .ex-4-square:hover{
     opacity: 0;
 }
+.ex-5-square {
+    transition: 3s;
+}
+.ex-5-square:hover {
+    transform: scale(3);
+    background-color: black;
+}
+.ex-5-square:active {
+    transform: scale(1);
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.5) opacity(.3);
+}
+.ex-8-img {
+transition: 2s;
+}
+.ex-8-img:hover {
+    filter:drop-shadow(5px 5px 5px red);
+    border-radius: 30px;
+}
